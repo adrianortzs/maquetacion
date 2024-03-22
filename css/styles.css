@@ -1,0 +1,154 @@
+body {
+    background-image: url('../assets/img/backgoundcolours.png');
+}
+
+header {
+    background-color: white;
+    margin-left: 0px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#search-register {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    gap: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-left:350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-left:350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.searcher {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    background-color: lightgray;
+    border: none;
+}
+
+#search-button {
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#free {
+    background-color: #E6C30E;
+    border-radius: 50%;
+    font-weight: bold;
+    height: 70px;
+    width: 120px;
+}
+
+#pro {
+    border-radius: 50%;
+    font-weight: bold;
+    height: 70px;
+    width: 120px;
+}
+
+#sign-up {
+    background-color: white;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+#sign-in {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.bold {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header > li {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+span {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#information > img {
+    height: 100px;
+    width: 100px;
+}
+
+.img > img {
+    height: 55px;
+    width: 55px;
+}
+
+#search-register > img {
+    width: 75px;
+    height: 45px;
+}
+
+#lupa {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
